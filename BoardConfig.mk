@@ -139,7 +139,6 @@ TW_NO_SCREEN_TIMEOUT := false
 PB_DISABLE_DEFAULT_DM_VERITY := true
 TW_OZIP_DECRYPT_KEY := "1c4c1ea3a12531ae491b21bb31613c11"
 TW_SKIP_COMPATIBILITY_CHECK := true
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 
 # Includes
 TW_INCLUDE_NTFS_3G := true
@@ -166,3 +165,31 @@ TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 # Debug
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
+
+# Path of your SHRP Tree
+SHRP_PATH := device/realme/RMX1901
+
+# Maintainer name *
+SHRP_MAINTAINER := HaSSaN
+
+# Device codename *
+SHRP_DEVICE_CODE := RMX1901
+
+# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+SHRP_REC_TYPE := Normal
+
+# Recovery Type (It can be A/B or A_only) [Only for About Section] *
+SHRP_DEVICE_TYPE := A/B
+
+SHRP_OFFICIAL := true
+SHRP_EXPRESS := true
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+
